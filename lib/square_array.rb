@@ -10,4 +10,5 @@ end
 numbers=[]
 def new_array(array)
   numbers(array).push(square_array(array))
+  p numbers(array)
 end
