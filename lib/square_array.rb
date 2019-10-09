@@ -7,5 +7,7 @@ def square_array(array)
   end
 end
 
-numbers = [1, 2, 3]
-square_array(numbers)
+def new_array(array)
+  new_numbers = [square_array(array)]
+  puts new_numbers
+end
