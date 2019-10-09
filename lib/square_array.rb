@@ -9,5 +9,5 @@ end
 
 def new_array(array)
   new_numbers = [square_array(array)]
-  puts new_numbers
+  p new_numbers
 end
