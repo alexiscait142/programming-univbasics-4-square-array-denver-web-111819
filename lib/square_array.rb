@@ -10,5 +10,5 @@ end
 def new_array(array)
   new = []
   new(array).push = [square_array(array)]
-  puts new
+  p new
 end
