@@ -7,8 +7,8 @@ def square_array(array)
   end
 end
 
-numbers=[]
 def new_array(array)
-  numbers(array).push(square_array(array))
-  p numbers(array)
+  new = []
+  new(array).push = [square_array(array)]
+  puts new
 end
